@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fifthday"
+    android:background="@drawable/greenbg">
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:src="@drawable/dayfive"
+        android:id="@+id/imgFifthDay"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:text="
+Sample Diet Plan for Day 5
+-> Breakfast: A bowl of boiled red kidney beans or rajma,
+   2 tomatoes and 2 glasses of water.
+   You can also add lemon and pepper rajma and tomatoes.
+-> Brunch: A cup of curd or tofu with a glass of water.
+-> Noon: Lunch: 2 tomatoes, a cup of cooked Brown Rice and
+   palak paneer with 2 glasses of water.
+-> Afternoon Snack: Sprouts Salad with soya chunks and 2
+   glasses of water.
+->Dinner: Vegetable soup, Soy Chunks curry. cucumber and
+  tomato salad with
+  2 glasses of water.
+  Increase a little more of the water intake from your regular
+  quantity which will flush all the toxins from your body."/>
+</LinearLayout>

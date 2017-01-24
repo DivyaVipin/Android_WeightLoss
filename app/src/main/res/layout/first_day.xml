@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="500dp"
+    android:layout_height="match_parent"
+    android:id="@+id/firstday"
+    android:background="@drawable/greenbg">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:src="@drawable/dayone"/>
+    <TextView
+        android:textColor="@color/colorWhite"
+
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Day 1 Diet Plan Chart:
+
+       "
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/colorWhite"
+        android:text="-> Breakfast at 8:30 AM with 1 glass of water and1 medium sized apple."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/colorWhite"
+        android:text=" ->Mid-Morning Snack at 10:30 AM."/>
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="1dp"
+        android:textColor="@color/colorWhite"
+      android:text="->Take one bowl of cantaloupes and then 1 glass of water."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/colorWhite"
+        android:text="->Lunch at 12:00 Noon. In lunch, you can take 2 large slices of watermelon
+         and 2 glasses of water."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/colorWhite"
+        android:text="->Afternoon Snack at 4.00 PM. Take only 1 orange and a glass of water."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/colorWhite"
+        android:text="->Evening Snack at 6.30 PM. Take 1 pear and a glass of water."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/colorWhite"
+        android:text="->Dinner at 8.00 PM. Take 1/2 grapefruit, 1 guava, and 2 glasses of water"/>
+  </LinearLayout>
+
+
+</ScrollView>

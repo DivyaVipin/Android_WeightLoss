@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:textSize="20dp"
+            android:text="Appl Cider Vinegar"
+            android:textColor="@color/colorBlack"/>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/apvinegar"
+            android:scaleType="center"
+            android:id="@+id/applecidervinegar"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="--> Apple cider vinegar is incredibly popular in the natural health community."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+
+            android:text="-->Several studies in humans suggest that vinegar can be useful for weight loss."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="-->It is popular for use in condiments, like dressings or vinaigrettes."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="-->Vinegar has also been shown to reduce blood sugar spikes after meals, which may lead to all sorts of beneficial effects on health in the long term "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="-->One study in obese individuals also showed that 15 or 30 mL of vinegar per day for 12 weeks caused weight loss of 2.6-3.7 pounds, or 1.2-1.7 kilograms."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="-->Taking vinegar at the same time as a high-carb meal can increase feelings of fullness and make people eat 200-275 fewer calories for the rest of the day "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

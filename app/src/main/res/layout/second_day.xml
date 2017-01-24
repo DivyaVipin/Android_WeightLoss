@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenbg">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/daytwo"
+        android:id="@+id/imgSecondDay"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:text="
+Sample Diet Chart
+-> Breakfast: 1 medium-sized boiled potato with 1 teaspoon of
+   low-fat butter.
+-> Brunch: Salad Lettuce or Kale ,1 bowl of cabbage and a
+   glass of water
+-> Lunch: 1 onion, 1 cucumber, 1/2 carrot and 2 glasses of water.
+-> Afternoon Snack : 1/2 cup of sliced capsicum, 1 cup of boiled
+   broccoli or cauliflower and 2 glasses of water.
+-> Evening Snack: 1 cup of boiled cauliflower and a glass of water.
+->Dinner: Mixture of boiled green beans, broccoli, carrot and beet
+  with 2 glasses of water.
+
+"/>
+</LinearLayout>
